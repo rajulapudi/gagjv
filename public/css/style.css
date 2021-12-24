@@ -44,6 +44,27 @@
   color: #fff;
   font-weight: 800;
   font-size: 24px;
+  
+}
+.navbar-custom .navbar-brand .hh {
+  margin-left: 388px;
+}
+
+@media (max-width: 767px){
+
+  .navbar-custom .navbar-brand {
+    color: #fff;
+    font-weight: 800;
+    font-size: 15px;
+   display: flex;
+   flex-direction: column;
+    
+  }
+ 
+.navbar-custom .navbar-brand .hh {
+ 
+  
+}
 }
 .navbar-custom .navbar-brand:hover {
   color: #fff;
@@ -52,6 +73,30 @@
   font-weight: 300;
   color: #00b2ce;
   font-size: 18px;
+}
+.navbar-custom .navbar-brand span span {
+  font-weight: 300;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 388px;
+}
+@media (max-width: 767px){
+  .navbar-custom .navbar-brand span {
+    font-weight: 300;
+    color: #00b2ce;
+    font-size: 12px;
+  }
+  .navbar-custom .navbar-brand span span {
+    font-weight: 300;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+  
+  }
 }
 .navbar-custom .navbar-brand span:hover {
   color: #00b2ce;
@@ -249,6 +294,7 @@
 @media (min-width: 768px) and (max-width: 980px) {
   .navbar-header {
     width: 100%;
+    
   }
   /* .navbar-toggle {
     display: block !important;
