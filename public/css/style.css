@@ -82,6 +82,10 @@
   flex-direction: column;
   margin-left: 388px;
 }
+.hhhh {
+  font-size: 12px;
+  
+}
 @media (max-width: 767px){
   .navbar-custom .navbar-brand span {
     font-weight: 300;
